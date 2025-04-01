@@ -7,15 +7,18 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  /* Changed padding to 32px */
+  padding: 32px;
+  /* Changed margin to 12px */
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  /* changed to 48px */
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +26,8 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  /* changed to auto to get right the alignment  I could have removed margin-right and just used left auto.*/
+  margin-left: auto;
+  
 }
